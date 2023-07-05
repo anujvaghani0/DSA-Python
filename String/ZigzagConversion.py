@@ -3,7 +3,7 @@ class Solution:
         if numRows == 1:
             return s
 
-        ans = " "
+        ans = ""
         n = len(s)
         difference = 2 * (numRows - 1)
         second_index = 0
@@ -18,7 +18,7 @@ class Solution:
                     if second_index < n:
                         ans += s[second_index]
                 index += difference
-        return ans.strip()
+        return ans
 
 
 solution = Solution()
