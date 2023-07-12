@@ -4,5 +4,5 @@ def set_name(str):
     print(string_without_spaces)
 
 
-str = "Max Consecutive Ones III"
+str = "Number of Matching Subsequences"
 set_name(str)
