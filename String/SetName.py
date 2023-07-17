@@ -4,5 +4,5 @@ def set_name(str):
     print(string_without_spaces)
 
 
-str = "Number of Matching Subsequences"
+str = "Mean of Array After Removing Some Elements"
 set_name(str)
