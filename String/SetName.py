@@ -4,5 +4,5 @@ def set_name(str):
     print(string_without_spaces)
 
 
-str = "Mean of Array After Removing Some Elements"
+str = "Minimum ASCII Delete Sum for Two Strings"
 set_name(str)

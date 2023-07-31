@@ -30,9 +30,10 @@ def calculate_normalized_precision_recall(true_entities, predicted_entities):
     return precision, recall
 
 
+
 # Example usage with normalized entities
-true_entities = ["'soumyakanta6@gmail.com"]
-predicted_entities = ["Guru@Work', 'soumyakanta6@gmail.com"]
+true_entities = ["anuj vaghani","nirmal trivedi","ajay pawar","madhuri bhoyar"]
+predicted_entities = ["anuj vaghani","nirmal tri","pawar","bhoyar kumari"]
 
 precision, recall = calculate_normalized_precision_recall(true_entities, predicted_entities)
 print("Precision:", precision)
