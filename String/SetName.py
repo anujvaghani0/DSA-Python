@@ -4,5 +4,5 @@ def set_name(str):
     print(string_without_spaces)
 
 
-str = "Minimum ASCII Delete Sum for Two Strings"
+str = " Letter Combinations of a Phone Number"
 set_name(str)
