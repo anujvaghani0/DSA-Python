@@ -2,7 +2,8 @@ from typing import List
 
 
 class Solution:
-    def findNumberOfLIS(self, nums: List[int]) -> int:
+    @staticmethod
+    def findNumberOfLIS(nums: List[int]) -> int:
         n = len(nums)
         dp = [1] * n
         count = [1] * n
