@@ -11,7 +11,7 @@ class Solution:
                 else:
                     dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
                 maximumscore = max(maximumscore, dp[i][j])
-        print(dp,s)
+        print(dp, s)
         return s - maximumscore * 2
 
 
