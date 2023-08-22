@@ -4,5 +4,5 @@ def set_name(str):
     print(string_without_spaces)
 
 
-str = " Letter Combinations of a Phone Number"
+str = "Excel Sheet Column Title"
 set_name(str)
