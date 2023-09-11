@@ -8,7 +8,6 @@ class Solution:
         nrow = [-1, 0, +1, 0]
         ncol = [0, 1, 0, -1]
         visited = [[0 for _ in range(m)] for _ in range(n)]
-
         # row top and bottom
         for j in range(m):
             if visited[0][j] == 0 and grid[0][j] == 1:

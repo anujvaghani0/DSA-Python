@@ -22,7 +22,6 @@ class Solution:
                 ans += count[i]
         return ans
 
-
 sol = Solution()
 print(sol.findNumberOfLIS([1, 3, 5, 4, 7]))
 
