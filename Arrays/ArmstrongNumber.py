@@ -11,7 +11,6 @@ class Solution:
         k = len(digits)
         return sum([digit ** k for digit in digits]) == temp
 
-
 solution = Solution()
 n=int(input("Enter a number: "))
 print(solution.armstrongNumber(int(n)))
